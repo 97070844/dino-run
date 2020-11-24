@@ -63,9 +63,9 @@ class Ground:
             #refresh backgounds to its initiate position
             self.leftground_rect.left = 0
             self.rightground_rect.left = 700
-        else:
-            self.leftground_rect.x -= 2
-            self.rightground_rect.x -= 2
+        
+        self.leftground_rect.x -= 2
+        self.rightground_rect.x -= 2
 
     def draw(self,screen):
         screen.blit(self.leftground,self.leftground_rect)
