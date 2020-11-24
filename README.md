@@ -5,6 +5,9 @@
 ## Gameplay
 Dino Run is an arcade-style game in which player can control a dino,which moves persistently to the right. Endless series of obstacles are moving to the left with respect to the player. Colliding with a obstacle object ends the gameplay.
 
+### Screenshot
+![Screenshot (28)](https://user-images.githubusercontent.com/67702761/100114998-67707380-2ea0-11eb-8a76-49ffbb37edf2.png)
+
 ### A list of package include
 -pygame==2.0.0
 
